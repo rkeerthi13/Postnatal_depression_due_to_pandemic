@@ -1,21 +1,21 @@
 # Postnatal Depression During COVID-19: Impact of Demographic Factors
-### Project Overview
+## Project Overview
 This research project investigates the relationship between demographic factors (maternal age, household income, and maternal education) and postnatal depression (measured by EPDS scores) in pregnant women during the COVID-19 pandemic. The study analyzes data from the Pregnancy during the COVID-19 Pandemic (PdP) project to understand how these demographic variables correlate with mental health outcomes.
 Dataset
 
-#### Source: Mental Health in the Pregnancy During COVID-19 dataset from the Pregnancy during the COVID-19 Pandemic (PdP) project
+## Source: Mental Health in the Pregnancy During COVID-19 dataset from the Pregnancy during the COVID-19 Pandemic (PdP) project
 Collection Method: Survey-based data collection across Canada using random sampling
 Sample Characteristics: Pregnant women with diverse demographic backgrounds
 Key Variables:
 
-#### Numerical Variables: Maternal Age, EPDS Scores
+### Numerical Variables: Maternal Age, EPDS Scores
 Categorical Variables: Household Income, Maternal Education, Mode of Delivery, NICU Stay
 
 
 
-### Data Processing
+## Data Processing
 
-#### Data Cleaning:
+### Data Cleaning:
 
 1. Replaced null values in the Maternal Age column with the median
 2. Treated outliers in the age column using the IQR method
@@ -24,7 +24,7 @@ Categorical Variables: Household Income, Maternal Education, Mode of Delivery, N
 5. Reduced household income categories from nine to five for better interpretability
 
 
-#### EPDS Score Classification:
+### EPDS Score Classification:
 
 -0 to 6: "None or minimal depression"
 -7 to 13: "Mild depression"
@@ -33,7 +33,7 @@ Categorical Variables: Household Income, Maternal Education, Mode of Delivery, N
 
 
 
-### Statistical Methods
+## Statistical Methods
 The following statistical methods were employed to investigate the relationship between demographic factors and postnatal depression:
 
 #### Simple Linear Regression: Tested correlation between maternal age and depression levels
@@ -46,14 +46,14 @@ The following statistical methods were employed to investigate the relationship 
 ### Age Impact: Younger maternal age was associated with higher postnatal depression risk (p < 0.001)
 ### Socioeconomic Factors: Lower household income and lower maternal education levels were significantly associated with higher EPDS scores (p < 2.2e-16)
 
-###Correlation Strength:
+### Correlation Strength:
 
 #### Maternal Age: Weak negative correlation (rho = -0.0685, p < 0.001)
 #### Household Income: Moderate negative correlation (rho = -0.1545, p < 0.001)
 Maternal Education: Moderate negative correlation (rho = -0.143, p < 0.001)
 
 
-### Overall Finding: All demographic factors demonstrated negative correlations with depression levels, with the null hypothesis rejected in favor of the alternative hypothesis that demographic factors correlate with postnatal depression during the COVID-19 pandemic
+## Overall Finding: All demographic factors demonstrated negative correlations with depression levels, with the null hypothesis rejected in favor of the alternative hypothesis that demographic factors correlate with postnatal depression during the COVID-19 pandemic
 
 ### Conclusion
 This study demonstrates that younger age, lower household income, and lower maternal education were associated with higher levels of postnatal depression symptoms during the COVID-19 pandemic. These findings emphasize the need for targeted support for pregnant women at higher risk of postnatal depression, especially during times of crisis.
@@ -79,7 +79,7 @@ The findings can inform the development of:
 
 
 
-### Project Team
+## Project Team
 
 -Nikhil Chowdary Gali, 
 -Poorva Reddy Vanga, 
@@ -95,5 +95,5 @@ Harville, E. W., Wood, M. E., & Sutton, E. F. (2023). Social distancing and ment
 Kaggle. (n.d.). Mental Health in the Pregnancy During the COVID-19. Retrieved from https://www.kaggle.com/datasets/yeganehbavafa/mental-health-in-the-pregnancy-during-the-covid-19
 Using the EPDS as a screening tool. (n.d.). COPE; Centre of Perinatal Excellence (COPE). https://www.cope.org.au/health-professionals/health-professionals-3/calculating-score-epds/
 
-### Contact
+## Contact
 Ramya Keerthi Majji- rmajji@iu.edu
