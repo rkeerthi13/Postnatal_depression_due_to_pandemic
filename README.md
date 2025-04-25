@@ -27,8 +27,11 @@ Categorical Variables: Household Income, Maternal Education, Mode of Delivery, N
 ### EPDS Score Classification:
 
 -0 to 6: "None or minimal depression"
+
 -7 to 13: "Mild depression"
+
 -14 to 19: "Moderate depression"
+
 -20 to 30: "Severe depression"
 
 
